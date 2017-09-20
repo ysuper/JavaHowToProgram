@@ -13,6 +13,7 @@ public class Time2
    // to zero; ensures that Time2 objects start in a consistent state
    public Time2()
    {
+//	  System.out.println("用this呼叫另一建構式需寫在第一行");
 	  this( 0, 0, 0 ); // invoke Time2 constructor with three arguments
    } // end Time2 no-argument constructor
 

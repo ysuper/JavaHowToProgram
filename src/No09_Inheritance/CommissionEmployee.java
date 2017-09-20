@@ -5,11 +5,11 @@ package No09_Inheritance;
 
 public class CommissionEmployee extends Object
 {
-   private String firstName;
-   private String lastName;
-   private String socialSecurityNumber;
-   private double grossSales; // gross weekly sales
-   private double commissionRate; // commission percentage
+   private String firstName;								// 姓
+   private String lastName;									// 名
+   private String socialSecurityNumber;						// 員編
+   private double grossSales; // gross weekly sales			// 銷售量
+   private double commissionRate; // commission percentage	// 抽佣率
 
    // five-argument constructor
    public CommissionEmployee( String first, String last, String ssn, 

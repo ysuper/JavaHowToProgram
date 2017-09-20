@@ -11,7 +11,7 @@ public class BasePlusCommissionEmployee
    private String socialSecurityNumber;
    private double grossSales; // gross weekly sales
    private double commissionRate; // commission percentage
-   private double baseSalary; // base salary per week
+   private double baseSalary; // base salary per week		// ©³Á~
 
    // six-argument constructor
    public BasePlusCommissionEmployee( String first, String last, 
