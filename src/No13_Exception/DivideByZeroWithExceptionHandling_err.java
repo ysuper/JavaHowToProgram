@@ -35,7 +35,7 @@ public class DivideByZeroWithExceptionHandling_err
          } // end try
          catch ( InputMismatchException inputMismatchException )
          {
-            System.out.printf( "\nException: %s\n",
+            System.err.printf( "\nException: %s\n",
                inputMismatchException );
             scanner.nextLine(); // discard input so user can try again
             System.out.println(
@@ -43,7 +43,7 @@ public class DivideByZeroWithExceptionHandling_err
          } // end catch
          catch ( ArithmeticException arithmeticException )
          {
-            System.out.printf( "\nException: %s\n", arithmeticException );
+            System.err.printf( "\nException: %s\n", arithmeticException );
             System.out.println(
                "Zero is an invalid denominator. Please try again.\n" );
          } // end catch
