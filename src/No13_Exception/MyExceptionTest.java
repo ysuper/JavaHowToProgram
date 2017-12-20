@@ -8,15 +8,15 @@ public class MyExceptionTest {
 				if (i == 5) {
 					throw new MyException(5);
 				}
-				System.out.println("¥X»ù¦¸¼Æ:"+i);
+				System.out.println("å‡ºåƒ¹æ¬¡æ•¸:"+i);
 			}
 		} catch(Exception e) {
-			// ³B²z¦Û­qªº¨Ò¥~
-			System.out.println("¨Ò¥~»¡©ú:"+e.getMessage());
-			System.out.println("¨Ò¥~­ì¦]");
+			// è™•ç†è‡ªè¨‚çš„ä¾‹å¤–
+			System.out.println("ä¾‹å¤–èªªæ˜:"+e.getMessage());
+			System.out.println("ä¾‹å¤–åŸå› ");
 			e.printStackTrace();
 		} finally {
-			System.out.println("¨Ò¥~³B²zµ²§ô");
+			System.out.println("ä¾‹å¤–è™•ç†çµæŸ");
 		}
 	}
 

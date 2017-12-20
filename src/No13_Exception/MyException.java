@@ -6,6 +6,6 @@ public class MyException extends Exception{
 	}
 
 	MyException(int msg){
-		super("¥X»ù¦¸¼Æ¤Ó¦h "+msg);
+		super("å‡ºåƒ¹æ¬¡æ•¸éå¤š"+msg);
 	}
 }

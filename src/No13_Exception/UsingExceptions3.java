@@ -13,22 +13,22 @@ public class UsingExceptions3
       } // end try
       catch ( Exception exception ) // catch exception thrown in method1
       { 
-         System.out.printf( "¡i1¡j%s\n\n", exception.getMessage() );
+         System.out.printf( "[1]%s\n\n", exception.getMessage() );
          exception.printStackTrace(); // print exception stack trace
 
          // obtain the stack-trace information
          StackTraceElement[] traceElements = exception.getStackTrace();
          
-         System.out.println( "¡i2¡j\nStack trace from getStackTrace:" );
-         System.out.println( "¡i3¡jClass\t\tFile\t\t\tLine\tMethod" );
+         System.out.println( "[2]\nStack trace from getStackTrace:" );
+         System.out.println( "[3]Class\t\tFile\t\t\tLine\tMethod" );
 
          // loop through traceElements to get exception description
          for ( StackTraceElement element : traceElements ) 
          {
-            System.out.printf( "¡i4¡j%s\t", element.getClassName() );
-            System.out.printf( "¡i5¡j%s\t", element.getFileName() );
-            System.out.printf( "¡i6¡j%s\t", element.getLineNumber() );
-            System.out.printf( "¡i7¡j%s\n", element.getMethodName() );
+            System.out.printf( "[4]%s\t", element.getClassName() );
+            System.out.printf( "[5]%s\t", element.getFileName() );
+            System.out.printf( "[6]%s\t", element.getLineNumber() );
+            System.out.printf( "[7]%s\n", element.getMethodName() );
          } // end for
       } // end catch
    } // end main

@@ -30,11 +30,11 @@ public class BasePlusCommissionEmployee2 extends CommissionEmployee
    } // end method getBaseSalary
 
    // calculate earnings
-   public double earnings()
-   {
-      // not allowed: commissionRate and grossSales private in superclass
-      return baseSalary + ( commissionRate * grossSales );
-   } // end method earnings
+//   public double earnings()
+//   {
+//      // not allowed: commissionRate and grossSales private in superclass
+//      return baseSalary + ( commissionRate * grossSales );
+//   } // end method earnings
 
    // return String representation of BasePlusCommissionEmployee2
    public String toString()
@@ -42,9 +42,9 @@ public class BasePlusCommissionEmployee2 extends CommissionEmployee
       // not allowed: attempts to access private superclass members   
       return String.format( 
          "%s: %s %s\n%s: %s\n%s: %.2f\n%s: %.2f\n%s: %.2f", 
-         "base-salaried commission employee", firstName, lastName, 
-         "social security number", socialSecurityNumber, 
-         "gross sales", grossSales, "commission rate", commissionRate, 
+//         "base-salaried commission employee", firstName, lastName, 
+//         "social security number", socialSecurityNumber, 
+//         "gross sales", grossSales, "commission rate", commissionRate, 
          "base salary", baseSalary );
    } // end method toString
 } // end class BasePlusCommissionEmployee2
